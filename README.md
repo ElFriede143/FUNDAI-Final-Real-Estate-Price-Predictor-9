@@ -67,7 +67,15 @@ FUNDAI-Final-Real-Estate-Price-Predictor-9/
 - [ ] M4: Individual defense (Dec 10 to 15)
 
 ## AI-use disclosure
-[Write honestly how your group used AI tools, for which tasks, and what you checked or wrote yourselves.]
+
+We used Claude (Anthropic) as an AI assistant during the M1 stage of this project. It was used to:
+
+- explain the project requirements and milestones and help us plan the timeline;
+- suggest the Ames Housing dataset and the modeling approach (Linear, Ridge and Lasso regression with a feature-contribution explainer);
+- draft text for the problem scope, dataset and ethics note, ethical risk table, architecture steps and target metrics, which we then reviewed and edited;
+- check the dataset file we uploaded (row and column counts, how "NA" and "None" values are coded, and large outlier houses).
+
+We did the following ourselves: choosing the final dataset version, downloading it, confirming its license on the Kaggle page, building the architecture diagram in Word, formatting the document, checking the references, and deciding which cleaning steps and target metrics to adopt.
 
 ## References
 De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing data as an end of semester regression project. *Journal of Statistics Education, 19*(3). http://jse.amstat.org/v19n3/decock.pdf
