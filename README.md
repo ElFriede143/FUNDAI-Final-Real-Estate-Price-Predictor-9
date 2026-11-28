@@ -4,11 +4,11 @@
 **Assigned Topic:** #9, Real Estate Price Predictor with "Why" Explainer
 
 ## Team
-| Member | Primary responsibility |
-|---|---|
-| John Benedict Z. Bengcolita | Data cleaning, exploration, preprocessing pipeline |
-| Dave Weckl O. Geonzon | Models, tuning, evaluation, explainer logic |
-| Jan Andrie Waper | Gradio app, bias audit, PDF assembly |
+| Member |
+|---|
+| John Benedict Z. Bengcolita |
+| Dave Weckl O. Geonzon |
+| Jan Andrie Waper |
 
 ## Overview
 A tabular regression system that predicts a house's sale price from its features and explains each prediction by showing which features added or subtracted the most value. It uses Linear, Ridge and Lasso regression on the Ames Housing dataset and is deployed as an interactive Gradio demo.
